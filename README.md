@@ -30,3 +30,6 @@ This is a  web application for an **Pharmacy**, allowing users to:
 ### 💳 eSewa Payment Integration
 ![eSewa Payment](esewa.png)
 
+## 🚀 Getting Started
+Hosting: `XAMPP` or any PHP-supported local server
+Url:"https://github.com/Aayushstha10/Emed/blob/main/Emed/frontpage.php"
