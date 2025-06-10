@@ -11,7 +11,7 @@ This is a  web application for an **Pharmacy**, allowing users to:
 
 - 🧾 Medicine Catalog 
 - 📤 Prescription upload system (image/pdf)
-- ✅ Admin panel to verify prescriptions
+- ✅ Admin panel to verify prescriptions with doctor NMC number
 - 💳 eSewa payment gateway integration
 - 
 ---
