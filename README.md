@@ -22,11 +22,11 @@ This is a  web application for an **Pharmacy**, allowing users to:
 ![Home Page](fontss.png)
 
 ### 🛒 Medicine Listing
-![Medicines](screenshots/medicines.png)
+![Medicines](med.png)
 
 ### 📤 Upload Prescription
-![Prescription Upload](screenshots/prescription_upload.png)
+![Prescription Upload](pres.png)
 
 ### 💳 eSewa Payment Integration
-![eSewa Payment](screenshots/esewa_payment.png)
+![eSewa Payment](esewa.png)
 
