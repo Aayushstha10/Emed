@@ -19,7 +19,7 @@ This is a  web application for an **Pharmacy**, allowing users to:
 ## 📸 Screenshots
 
 ### 🏠 Home Page
-![Home Page](screenshots/home.png)
+![Home Page](fontss.png)
 
 ### 🛒 Medicine Listing
 ![Medicines](screenshots/medicines.png)
