@@ -1,0 +1,434 @@
+	*{
+		margin: 0px;
+		padding: 0px;
+		box-sizing: border-box;
+		font-family: sans-serif;
+		border:none;
+		outline: none;
+		text-decoration: none;
+		transition: .2s linear;
+		text-transform: capitalize;
+	}
+	body{
+		width: 100%;
+		height: 100vh;
+		background: #fff;
+	}
+
+	/*--Hospitals--*/
+
+	.product-box{
+		padding-top: 10px;
+		margin-top: 10px;
+		margin-bottom: 25px;
+		padding-bottom: 25px;
+		margin-left: 100px;
+	}
+	.product-box .hname{
+		text-align: center;
+		padding-bottom: 25px;
+		color: green;
+		text-shadow: 0 5px 10px rgba(0,0,0,.2);
+		font-size: 50px;
+	}
+	.card {
+		display: block;
+		margin: 12px;
+		box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.6);
+		max-width: 200px;
+		text-align: center;
+		font-family: sans-serif;
+		display: inline-block;
+		border-radius: 5px;
+	}
+	.product-box .card:hover{
+		transform: scale(1.03);
+	}
+	.address {
+		color: grey;
+		font-size: 1 rem;
+	}
+
+	/*--Medicines--*/
+
+	.container{
+		background:linear-gradient(45deg, blueviolet, lightgreen);
+		padding:15px 9%;
+		padding-bottom: 100px;
+	}
+	.container .heading{
+		text-align: center;
+		padding-bottom: 25px;
+		color: green;
+		text-shadow: 0 5px 10px rgba(0,0,0,.2);
+		font-size: 50px;
+	}
+	.container .box-container{
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+		gap:15px;
+	}
+	.container .box-container .box{
+		box-shadow: 0 5px 10px rgba(0,0,0,.2);
+		border-radius: 5px;
+		background: #fff;
+		text-align: center;
+		padding:25px 25px;
+		width: 75%;
+	}
+	.container .box-container .box h3{
+		color:#445;
+		font-size: 20px;
+		padding:10px 0;
+	}
+	.container .box-container .box p{
+		color:#777;
+		font-size: 15px;
+		line-height: 1.8;
+	}
+	.container .box-container .box .btn{
+		margin-top: 10px;
+		display: inline-block;
+		background: green;
+		color: white;
+		font-size: 17px;
+		border-radius: 5px;
+		padding: 8px 25px;
+	}
+	.container .box-container .box .btn:hover{
+		letter-spacing: 1px;
+	}
+	.container .box-container .box:hover{
+		box-shadow: 0 10px 15px rgba(0,0,0,.3);
+		transform: scale(1.03);
+	}
+	@media (max-width:768px){
+		.container{
+			padding:20px;
+		}
+	}
+
+	/*--Footer--*/
+
+	footer{
+		position: relative;
+		bottom: 0px;
+		width: 100%;
+		background-color: #111;
+	}
+	.main-content{
+		display: flex;
+		color: white;
+	}
+	.main-content .box{
+		flex-basis: 50%;
+		padding: 10px 20px;
+	}
+	.box h2{
+		font-size: 1.125rem;
+		font-weight: 600;
+		text-transform: uppercase;
+	}
+	.box .content{
+		margin: 20px 0 0 0;
+		position: relative;
+	}
+	.box .content:before{
+		position: absolute;
+		content: '';
+		top: -10px;
+		height: 2px;
+		width: 100%;
+		background: #1a1a1a;
+	}
+	.box .content:after{
+		position: absolute;
+		content: '';
+		height: 2px;
+		width: 15%;
+		background: green;
+		top: -10px;
+	}
+	.left .content p{
+		text-align: justify;
+	}
+	.center .content .text{
+		font-size: 1.0625rem;
+		font-weight: 500;
+		padding-left: 10px;
+	}
+	.center .content .phone{
+		margin: 15px 0;
+	}
+	.right form .text{
+		font-size: 1.0625rem;
+		margin-bottom: 2px;
+		color: white;
+	}
+	.right form .msg{
+		margin-top: 10px;
+	}
+	.right form input, .right form textarea{
+		width: 100%;
+		font-size: 1.0625rem;
+		background: #151515;
+		padding-left: 10px;
+		border: 1px solid #222222;
+	}
+	.right form input:focus, .right form textarea:focus{
+		color: white;
+	}
+	.right form input{
+		height: 35px;
+	}
+	.right form .btn{
+		margin-top: 10px;
+	}
+	.right form .btn button{
+		height: 40px;
+		width: 100%;
+		border: none;
+		outline: none;
+		background: white;
+		color: green;
+		font-size: 1.0625rem;
+		font-weight: 500;
+		cursor: pointer;
+		transition: .3s;
+	}
+	.right form .btn button:hover{
+		color: white;
+		background: green;
+	}
+	.bottom center{
+		padding: 5px;
+		font-size: 0.9375rem;
+		background: #151515;
+	}
+	.bottom center span{
+		color: #656565;
+	}
+	.bottom center a{
+		color: green;
+		text-decoration: none;
+	}
+	.bottom center a:hover{
+		text-decoration: underline;
+	}
+	@media screen and (max-width: 900px) {
+		footer{
+			position: relative;
+			bottom: 0px;
+		}
+		.main-content{
+			flex-wrap: wrap;
+			flex-direction: column;
+		}
+		.main-content .box{
+			margin: 5px 0;
+		}
+	}
+
+	/*--Navigation Bar--*/
+
+	header{
+		top: 0px;
+		left: 0px;
+		width: 100%;
+		position: fixed;
+		padding: 0px auto;
+	}
+	.navbar{
+		width: 100%;
+		display: flex;
+		margin: 0px auto;
+		padding: 13px 13px;
+		align-items: center;
+		justify-content: space-between;
+		background-color: green;
+		box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.1);
+	}
+	.navbar .menu-btn{
+		display: none;
+		color: #fff;
+		cursor: pointer;
+		font-size: 1.5rem;
+	}
+	.navbar .logo{
+		gap: 12px;
+		display: flex;
+		align-items: center;
+		text-decoration: none;
+	}
+	.navbar .logo img{
+		width: 40px;
+		border-radius: 50%;
+	}
+	.navbar .logo h2{
+		color: #fff;
+		font-weight: 600;
+		font-size: 1.6rem;
+		padding-left: 25px;
+	}
+	.navbar .links{
+		gap: 50px;
+		display: flex;
+		list-style: none;
+	}
+	.navbar .links .close-btn{
+		display: none;
+		color: #000;
+		cursor: pointer;
+		position: absolute;
+		top: 12px;
+		right: 12px;
+		font-size: 1.5rem;
+	}
+	.navbar .links a{
+		color: white;
+		font-weight: 500;
+		font-size: 1.2rem;
+		text-decoration: none;
+	}
+	.navbar .links a:hover{
+		color: black;
+	}
+	.products-menu{
+		position: relative;
+		display: inline-block;
+	}
+	.dropdown-content{
+		display: none;
+		position: absolute;
+		background-color: green;
+		width: 100px;
+		text-align: center;
+	}
+	.dropdown-content a{
+		color: white;
+		padding: 6px 6px;
+		margin: 6px 6px;
+		text-decoration: none;
+		display: block;
+	}
+	.dropdown-content a:hover{
+		color: green;
+	}
+	.products-menu:hover .dropdown-content{
+		display: block;
+	}
+	.navbar .blog-btn{
+		border: none;
+		outline: none;
+		color: green;
+		cursor: pointer;
+		font-size: 1rem;
+		font-weight: 600;
+		padding: 8px;
+		border-radius: 6px;
+		background: #fff;
+	}
+	.navbar .blog-btn:hover{
+		background-color: #778;
+	}
+	.navbar .search-box{
+		float: right;
+		width: 25%;
+	}
+	.navbar .search-box input{
+		display: flex;
+		width: 100%;
+		padding: 8px;
+		font-size: 1rem;
+		border: none;
+		border-radius: 6px;
+		outline: none;
+	}
+	.navbar .search-box input:focus::placeholder{
+		color: green;
+		transition: all 0.6s ease;
+	}
+	.navbar .upload-box{
+		float: right;
+	}
+	.navbar .upload-btn{
+		border: none;
+		outline: none;
+		color: green;
+		cursor: pointer;
+		font-size: 1rem;
+		font-weight: 600;
+		padding: 3px 6px;
+		border-radius: 6px;
+		background: #fff;
+	}
+	.navbar .upload-btn:hover{
+		background-color: #778;
+	}
+
+	/*--Medicine--*/
+
+	main {
+		flex: 1;
+		padding: 20px;
+		margin-top: 65px;
+	}
+	h1 {
+		text-align: center;
+		color: green;
+		text-shadow: 0 5px 10px rgba(0,0,0,.2);
+	}
+
+	/*--Medicine List--*/
+
+	.medicine-list {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 20px;
+		justify-content: center;
+		padding-top: 25px;
+	}
+
+	/*--Medicine Card--*/
+
+	.medicine-card {
+		width: 300px;
+		border: 1px solid #ddd;
+		border-radius: 8px;
+		padding: 20px;
+		box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	    min-height: 450px;  /* Ensure a minimum height */
+	}
+	.medicine-card img {
+		width: 100%;
+	    height: 200px; /* Fixed height for the image */
+		object-fit: cover;
+		margin-bottom: 15px;
+	}
+	.medicine-card h3 {
+		font-size: 1.5em;
+		margin-bottom: 10px;
+	}
+	.medicine-card p {
+	    flex-grow: 1;  /* Makes description take up remaining space */
+		margin-bottom: 10px;
+	}
+	.medicine-card form {
+	    margin-top: auto; /* Pushes the form and button to the bottom */
+	}
+	.medicine-card .btn {
+		width: 100%;
+		padding: 10px;
+		background-color: green;
+		color: white;
+		border: none;
+		border-radius: 5px;
+		cursor: pointer;
+		font-size: 1.1em;
+	}
+	.medicine-card .btn:hover {
+		background-color: #218838;
+	}

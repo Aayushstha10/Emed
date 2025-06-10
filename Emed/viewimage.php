@@ -1,0 +1,1 @@
+<p><a href="display.php">View All Prescriptions</a></p>
